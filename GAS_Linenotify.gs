@@ -7,19 +7,21 @@
 //Line Notify TOKEN
 var strToken = "yourtoken";
 
-/*
-//postされるたデータをメッセージに変換
+
+//postされたデータをメッセージに変換
 function Post(p){
   var body = p.postData.contents;
   var msg = body.toUpperCase();
   sendLine(msg)
   }
-*/
 
-function setMsg(){
+
+/*
+function testMsg(){
   var msg = "お知らせだよ！"
   sendLine(msg)
 }
+*/
 
 
 //Lineを送信する
